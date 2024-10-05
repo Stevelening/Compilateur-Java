@@ -1,0 +1,12 @@
+// Description:
+//    affiche un booléen
+//
+// Resultats:
+//    True;
+//
+// Historique:
+//    cree le 04/01/2024
+
+{
+  println(true);
+}

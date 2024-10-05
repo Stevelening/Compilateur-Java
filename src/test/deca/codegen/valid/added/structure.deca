@@ -1,0 +1,33 @@
+// Description:
+//    test de structure de contrôle
+//
+// Resultats:
+//C'est bientôt la nouvelle Année
+//10
+//9
+//8
+//7
+//6
+//5
+//4
+//3
+//2
+//1
+//Bonne Année
+// FIN Resultats
+
+{
+    int x = 2024;
+    int i = 10;
+    if (x > 2023 && x<2025) {
+        println("C'est bientôt la nouvelle Année");
+    } 
+    else {
+        print("KO");
+    }
+    while (i != 0) {
+        println(i);
+        i = i - 1;
+    }
+    println("Bonne Année");
+}

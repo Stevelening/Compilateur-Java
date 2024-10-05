@@ -1,0 +1,25 @@
+//
+// Structure de programme très simple avec structure d'objets
+//
+// Resultats:
+//4
+// FIN Resultats
+
+class A {
+    int x = 4;
+
+    protected A parent;
+
+    int getX(){
+        return x;
+    }
+
+    float y = getX();
+}
+
+{
+    A a = new A();
+    A other = new A();
+
+    printx(other.getX());
+}

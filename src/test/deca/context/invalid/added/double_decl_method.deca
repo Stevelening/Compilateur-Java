@@ -1,0 +1,15 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A{
+  int get1(){
+    return 1;
+  }
+  int get1(){
+    return 2;
+  }
+}
+
+{
+}

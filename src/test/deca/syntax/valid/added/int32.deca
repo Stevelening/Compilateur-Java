@@ -1,0 +1,12 @@
+//
+// Vérification de la condition de la taille des entiers
+// Résultat attendu de test_lex:
+// INT: [...'3'...]
+// INT: [...2147483647'...]
+//
+
+{
+int a=3;
+int b=2147483647;
+println(a);
+}

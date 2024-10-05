@@ -1,0 +1,27 @@
+{
+float play;
+int secret = 57;
+int playerguess;
+play = 1.0;
+while(play == 1){
+    println("Bienvenu dans le jeu du nombre secret, donnez un nombre et je vous dirait s'il est plus ou moins grand que le nombre secret : ");
+    playerguess = readInt();
+    print("Votre nombre est : ", playerguess, " il est ");
+    if(playerguess > secret){
+        println(" plus grand que le nombre secret");
+    }else{
+        if(playerguess < secret){
+            println(" plus petit que le nombre secret");
+        }else{
+            println(" exactement le nombre secret !!!");
+        }
+    }
+    println("Voulez vous rejouer 1- Oui 0 - Non");
+    play = readInt();
+    while(play<0 || play >1){
+        println("Voulez vous rejouer 1- Oui 0 - Non");
+        play = readFloat();
+    }
+    }
+    println("Fin de la partie");
+}

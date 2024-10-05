@@ -1,0 +1,13 @@
+// Description:
+//Vérification des floatants
+// 
+//Résultat attendu de test_lex:
+//  ...
+//  Float 3.5
+//  ...
+//  Float 3.5f
+//  ...
+{
+float a = 3.5;
+float b = 3.5f;
+}

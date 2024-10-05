@@ -1,0 +1,15 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A{
+  int x = 4;
+  int sumXWith2Int(int a, int b){
+    return x+a+b;
+  }
+}
+
+{
+  A a = new A();
+  int y = a.sumXWith2Int(1, 2);
+}

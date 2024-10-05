@@ -1,0 +1,15 @@
+// Description:
+// test des if et elseif
+//
+
+{
+    if (false){
+        readInt();
+    }else if (true){
+
+    }else if (false){
+        print();
+    }else if (1==2){
+        println();
+    }
+}

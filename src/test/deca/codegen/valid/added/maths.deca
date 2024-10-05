@@ -1,0 +1,23 @@
+// Description:
+//    tests sur les flottants et sur les conditions 32 bits des entiers
+//
+// Resultats:
+//4.50000e-03
+//1.00000e-05
+//2.55000e+02
+//2147483647
+//4.50000e-08 4.50000e+02
+// FIN Resultats
+{
+float f = 0.0045f;
+float dixExpMoins5 = 0.00001;
+float hex = 0XFF.0p0; 
+int big = 2147483647;
+println(f);
+println(dixExpMoins5);
+println(hex);
+println(big);
+println(f*dixExpMoins5," " ,f/dixExpMoins5);
+//println(big+1);
+}
+

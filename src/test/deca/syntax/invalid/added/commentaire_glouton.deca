@@ -1,0 +1,11 @@
+// Description:
+// Vérifie le non-gloutonisme des commentaires avec '/*'
+//
+// Sortie de test_lex attendue : 
+// IDENT: [@0,18:20='pas',<22>,8:18]
+// IDENT: [@1,22:32='commentaire',<22>,8:22]
+// TIMES: [@2,34:34='*',<28>,8:34]
+// SLASH: [@3,34:35='/',<29>,8:35] 
+//
+
+/* commentaire */ pas commentaire */

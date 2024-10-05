@@ -1,0 +1,38 @@
+// Description:
+// Jeu de devine un nombre
+// Resultats:
+//Je pense à un nombre entre 1 et 100, devinez lequel
+//Mon nombre est plus grand, réessayez
+//Mon nombre est plus grand, réessayez
+//Mon nombre est plus grand, réessayez
+//Mon nombre est plus grand, réessayez
+//Mon nombre est plus grand, réessayez
+//Mon nombre est plus petit, réessayez
+//Bravo, mon nombre était bien 47
+// FIN Resultats (input de 1 2 3 4 50 47)
+
+
+{
+
+    int res = 47;
+    int input = -1;
+
+    println("Je pense à un nombre entre 1 et 100, devinez lequel");
+    while(input != res){
+        input = readInt();
+        while(input < 1 || input > 100){
+            println("Entrez un nombre entre 1 et 100");
+            input = readInt();
+        }
+
+        if(input > res){
+            println("Mon nombre est plus petit, réessayez");
+        }else if(input < res){
+            println("Mon nombre est plus grand, réessayez");
+        }
+    }
+
+    println("Bravo, mon nombre était bien ", input);
+
+
+}

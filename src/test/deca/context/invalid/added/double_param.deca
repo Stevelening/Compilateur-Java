@@ -1,0 +1,12 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A {
+  int sum(int a, int a){
+    return a+a;
+  }
+}
+
+{
+}

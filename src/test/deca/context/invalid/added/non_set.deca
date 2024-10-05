@@ -1,0 +1,22 @@
+// Description:
+//    objet non initalisé
+//
+// Resultats:
+//    erreur 21:4
+//
+// Historique:
+//    cree le 22/01/2024
+
+
+class Livre {
+    string auteur;
+
+    void afficheAuteur() {
+        print(auteur);
+    }
+}
+
+{
+    Livre harryPotter;
+    harryPotter.afficheAuteur();
+}

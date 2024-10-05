@@ -1,0 +1,17 @@
+// Description:
+//    tests conditionnelle
+//
+// Resultats:
+//    ok
+// FIN Resultats
+// Historique:
+//    cree le 01/01/2024
+
+{
+   if (1 >= 0) {
+      println("ok"); 
+   } else { 
+      println("erreur");
+   }
+}
+

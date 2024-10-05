@@ -1,0 +1,7 @@
+// Doit lever une exception de vérification contextuelle
+
+{
+    if (4 < "hello"){
+        print("KO");
+    }
+}

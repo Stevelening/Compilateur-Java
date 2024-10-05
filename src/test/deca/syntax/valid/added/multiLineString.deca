@@ -1,0 +1,18 @@
+// Description:
+// multi line string et asm   
+//
+// Resultats:
+// pour le lexeur et le parseur
+// class_decla et decl_methode
+//
+// Historique:
+//    cree le 21/01/2024
+
+class ident1{
+    type ident2 () asm ("multi
+                                line
+                                string"); 
+}
+{
+
+}

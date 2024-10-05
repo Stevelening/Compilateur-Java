@@ -1,0 +1,40 @@
+{
+int choixcalcul = 0;
+float op1 = 0.0;
+float op2 = 0.0;
+int op1_modulo = 0;
+int op2_modulo = 0;
+int isOpen = 1;
+println("Calculatrice");
+while(isOpen == 1) {
+        println(" Saisissez le calcul que vous souhaitez faire  : ", "1- Addition ", "2-Multiplication ", "3 - Soustraction ", "4 - Division ", "5- modulo ");
+        choixcalcul = readInt();
+        println("Saisissez les deux opérandes ( gauche --- droite )");
+        if(choixcalcul >= 1 && choixcalcul <= 4){
+            op1 = readFloat();
+            op2 = readFloat();
+        }else{
+            op1_modulo = readInt();
+            op2_modulo = readInt();
+        }
+        if(choixcalcul == 1){
+            println(op1, " + ", op2, " = ", op1 + op2);
+        }
+        if(choixcalcul == 2){
+            println(op1, " * ", op2, " = ", op1 * op2);
+        }
+        if(choixcalcul == 3){
+            println(op1, " - ", op2, " = ", op1 - op2);
+        }
+        if(choixcalcul == 4){
+            println(op1, " / ", op2, " = ", op1 / op2);
+        }
+        if(choixcalcul == 5){
+            println(op1_modulo, " % ", op2_modulo, " = ", op1_modulo % op2_modulo);
+        }
+        println(" Voulez faire un autre calcul ?  1 - Oui ; 0 - Non");
+        isOpen = readInt();
+
+}
+println("Merci pour votre attention !");
+}

@@ -1,0 +1,14 @@
+// Description:
+//    Programme utilisant une instruction san ;.
+//
+// Resultats:
+//    Ligne 13 : Erreur de syntaxe.
+//    le lexer ne doit pas relever d'erreur
+//
+// Historique:
+//    cree le 22/12/2024
+
+{
+        println("hello");
+        println("hello")
+}

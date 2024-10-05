@@ -1,0 +1,20 @@
+// Description:
+//    Programme testant une boucle while simple.
+//
+// Resultats:
+//    sortie : 1
+//    2
+//    3
+//    fini
+//
+// Historique:
+//    cree le 07/01/2024
+
+{
+        int x = 1;
+        while (x < 3){
+              println(x);
+              x=x+1;
+        }
+        println("fini");
+}

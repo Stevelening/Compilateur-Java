@@ -1,0 +1,11 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A {
+  int x;
+  int x;
+}
+
+{
+}

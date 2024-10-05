@@ -1,0 +1,12 @@
+// Description:
+// usage de tous les prints:
+//
+//  Resultats:
+//  print, println, printx, printlnx
+//
+{
+    print("a");
+    println("b");
+    printx("c");
+    printlnx("d");
+}

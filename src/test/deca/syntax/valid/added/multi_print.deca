@@ -1,0 +1,13 @@
+// Description:
+//    utilise un print pour afficher plusieurs element
+//
+// Resultats:
+//    3, hey, 4
+//
+// Historique:
+//    cree le 04/01/2024
+
+{
+  int x = 4;
+  println(3, "hey", x);
+}

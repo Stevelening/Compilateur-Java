@@ -1,0 +1,26 @@
+//
+// Vérification du bon fonctionnement de equals
+//
+// Resultats:
+//okok
+// FIN Resultats
+
+class P {
+
+}
+{
+    P p = new P();
+    P q = p;
+
+    if(p.equals(q)){
+        print("ok");
+    }else{
+        print("ko");
+    }
+
+    if(q.equals(p)){
+        print("ok");
+    }else{
+        print("ko");
+    }
+}

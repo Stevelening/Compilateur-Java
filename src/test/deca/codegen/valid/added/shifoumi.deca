@@ -1,0 +1,33 @@
+// Description
+// jeu Pierre Papier Ciseaux
+// Resultats:
+//Choisis Pierre (1), Papier (2) ou Ciseaux (3)
+//Tu joues Pierre, je joue Papier, je gagne
+//Choisis Pierre (1), Papier (2) ou Ciseaux (3)
+//Tu joues Papier, je joue Ciseaux, je gagne
+//Choisis Pierre (1), Papier (2) ou Ciseaux (3)
+//Tu joues Ciseaux, je joue Pierre, je gagne
+//Choisis Pierre (1), Papier (2) ou Ciseaux (3)
+//Ah le batard il a joué le Puit, bravo
+// FIN Resultats (input 1 2 3 4)
+{
+    int input = 0;
+    boolean gagne = false;
+    while(!gagne){
+        while(input < 1 || input > 4){
+            println("Choisis Pierre (1), Papier (2) ou Ciseaux (3)");
+            input = readInt();
+        }
+        if(input == 1){
+            println("Tu joues Pierre, je joue Papier, je gagne");
+        }else if(input == 2){
+            println("Tu joues Papier, je joue Ciseaux, je gagne");
+        }else if(input ==3){
+            println("Tu joues Ciseaux, je joue Pierre, je gagne");
+        }else{
+            println("Ah le batard il a joué le Puit, bravo");
+            gagne = true;
+        }
+        input = 0;
+    }
+}

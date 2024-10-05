@@ -1,0 +1,19 @@
+class GroupeGl{
+
+}
+
+class ChefEquipe extends GroupeGl{
+    void crie() {
+        print("Bark");
+    }
+}
+
+class Membre extends GroupeGl {
+}
+
+
+
+{
+    Membre melvin = new Membre();
+    melvin.crie();
+}

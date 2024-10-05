@@ -1,0 +1,13 @@
+// Description:
+//    Programme faisant une division par 0.
+//
+// Resultats:
+//    Ligne 12 : Erreur div par 0.
+//    le lexer ne doit pas relever d'erreur
+//
+// Historique:
+//    cree le 04/01/2024
+
+{
+        int x = 4/0;
+}

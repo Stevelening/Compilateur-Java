@@ -1,0 +1,15 @@
+// Description:
+// syntaxe correcte du or 
+//
+//
+// Historique:
+//    cree le 21/01/2024
+
+{   
+    int x=1;
+    boolean y;
+    if (x==1 || x==2){
+        y = (x==1 || );
+        print("OK");
+    }
+}

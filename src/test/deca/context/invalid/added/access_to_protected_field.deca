@@ -1,0 +1,12 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A{
+  protected int x = 4;
+}
+
+{
+  A a = new A();
+  int y = a.x;
+}

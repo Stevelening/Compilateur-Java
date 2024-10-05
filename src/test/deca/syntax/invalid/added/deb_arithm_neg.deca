@@ -1,0 +1,14 @@
+// Description:
+//    Programme testant la limitation 32 bits des entiers.
+//
+// Resultats:
+//    erreur ligne 12 : débordement arithmétique
+//    le lexeur doit relever une erreur
+//
+// Historique:
+//    cree le 07/01/2024
+
+{
+    int x = -2147483647;
+    int x = -2147483648;
+}

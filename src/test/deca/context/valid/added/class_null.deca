@@ -1,0 +1,10 @@
+// Description:
+//
+//
+//
+class A{
+    int a;
+}
+{
+   // A x = null;
+}

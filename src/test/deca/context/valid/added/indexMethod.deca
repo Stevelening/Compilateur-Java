@@ -1,0 +1,17 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A{
+  void a(){}
+  void b(){}
+  void c(){}
+}
+
+class B extends A{
+  void d(){}
+  void b(){}
+  void e(){}
+}
+
+{}

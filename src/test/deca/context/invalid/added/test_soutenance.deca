@@ -1,0 +1,6 @@
+// Doit lever une exception de vérification contextuelle
+
+class A {}
+class A {}
+{
+}

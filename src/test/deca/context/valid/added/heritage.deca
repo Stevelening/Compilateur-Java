@@ -1,0 +1,16 @@
+class A {
+    void b() {
+        println("b");
+    }
+}
+
+class C extends A {
+    void d() {
+        println("d");
+    }
+}
+
+{
+    C c = new C();
+    c.b();
+}

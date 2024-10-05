@@ -1,0 +1,13 @@
+// Description:
+//    test d'expressions entieres
+//
+// Resultats:
+//2*1 - 3*2 = -4
+// FIN Resultats
+{
+int x = 1;
+int y = 2;
+int z;
+z = 2 * x - 3 * y;
+println("2*1 - 3*2 = ", z);
+}

@@ -1,0 +1,14 @@
+// Description:
+//    utilisation de tous les types de print notamment hexa
+//
+// Resultats:
+//    2.00000e+00 2.00000e+00
+//    0x1.fffffep+0 0x1p+1
+// FIN Resultats
+
+{
+    print(0x1.FFFFFEp0," ");
+    println(0x1.0p1);
+    printx(0x1.FFFFFEp0," ");
+    printlnx(0x1.0p1);
+}

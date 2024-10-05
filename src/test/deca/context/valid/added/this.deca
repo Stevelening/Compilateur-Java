@@ -1,0 +1,15 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A{
+  int x;
+  void setX(int x){
+    this.x = x;
+  }
+}
+
+{
+  A a = new A();
+  a.setX(3);
+}

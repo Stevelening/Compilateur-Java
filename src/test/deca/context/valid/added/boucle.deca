@@ -1,0 +1,28 @@
+// Description:
+//    boucle de méthode
+//
+// Resultats:
+//    récursivité poule->renard->vipere->poule....
+//
+// Historique:
+//    cree le 22/01/2024
+
+class BasseCour {
+    int animal;
+
+    int poule(int animal){
+        return renard(animal);
+    }
+
+    int renard(int animal){
+        return vipere(animal);
+    }
+
+    int vipere(int animal){
+        return poule(animal);
+    }
+}
+
+{
+
+}

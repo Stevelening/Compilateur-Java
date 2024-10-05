@@ -1,0 +1,21 @@
+// Vérification de if(Assign)
+//
+// Resultats:
+//okok
+// FIN Resultats
+
+{
+    boolean a, b;
+    
+    if(a = true){
+        print("ok");
+    }else{
+        print("ko");
+    }
+
+    if(b = false){
+        print("ko");
+    }else{
+        print("ok");
+    }
+}

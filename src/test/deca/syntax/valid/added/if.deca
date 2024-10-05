@@ -1,0 +1,13 @@
+// Description:
+//    Programme testant un if simple.
+//
+// Resultats:
+//    sortrie : correct
+//
+// Historique:
+//    cree le 07/01/2024
+{
+       if (true){
+         println("correct");
+       }
+}

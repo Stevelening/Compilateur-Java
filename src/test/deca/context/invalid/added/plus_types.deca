@@ -1,0 +1,7 @@
+// Doit lever une exception de vérification contextuelle
+
+{
+    int x;
+
+    x = 4 + false;
+}

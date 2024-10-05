@@ -1,0 +1,9 @@
+class A {
+    void methode(){
+        print("print");
+    }
+}
+{
+    A a = new A();
+    a.methode()=5;
+}

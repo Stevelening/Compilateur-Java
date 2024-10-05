@@ -1,0 +1,8 @@
+// Doit lever une exception de vérification contextuelle
+
+{
+    float x;
+    int y;
+    x = 3.0;
+    y = y % x;
+}

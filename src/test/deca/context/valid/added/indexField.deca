@@ -1,0 +1,17 @@
+/*
+    Ce bloc vide est syntaxiquement valide
+*/
+
+class A{
+  int a;
+  int b;
+  int c;
+}
+
+class B extends A{
+  int d;
+  int b;
+  int e;
+}
+
+{}

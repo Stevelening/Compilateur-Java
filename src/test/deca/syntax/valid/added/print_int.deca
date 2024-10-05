@@ -1,0 +1,12 @@
+// Description:
+//    affiche un entier
+//
+// Resultats:
+//    3
+//
+// Historique:
+//    cree le 04/01/2024
+
+{
+  println(3);
+}

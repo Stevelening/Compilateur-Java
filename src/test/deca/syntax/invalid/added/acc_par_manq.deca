@@ -1,0 +1,14 @@
+// Description:
+//    Programme minimaliste utilisant println sans la parenthese ferme.
+//
+// Resultats:
+//    Ligne 13 : Erreur de syntaxe.
+//    le lexer ne doit pas relever d'erreur
+//    on releve uniquement l'erreur de parenthèse
+//
+// Historique:
+//    cree le 21/12/2024
+
+{
+        println("Hello";
+}

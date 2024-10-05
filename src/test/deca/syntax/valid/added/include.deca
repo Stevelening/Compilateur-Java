@@ -1,0 +1,5 @@
+// Description:
+// Programme à la syntaxe correcte, qui ne doit rien renvoyer
+//
+
+#include "instruction4Ligne.deca"

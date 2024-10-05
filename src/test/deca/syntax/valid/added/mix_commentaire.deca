@@ -1,0 +1,9 @@
+/*
+ Vérification de la construction des commentaires
+ Résultat attendu :
+ IDENT: [@0,143:146='test',<22>,8:0]
+ IDENT: [@1,177:180='test',<22>,9:0]
+*/
+
+// /* commentaire // **/ /*
+// encore commentaire

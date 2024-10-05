@@ -1,0 +1,12 @@
+// Description:
+//    Programme écrivant une instruction simple 
+//
+// Resultats:
+//
+//
+// Historique:
+//    cree le 22/12/2024
+
+{
+    int x=4;
+}

@@ -1,0 +1,12 @@
+// Description:
+//    Programme faisant une division par 0.
+//
+// Resultats:
+//    erreur ligne 11 mauvaise initialisation.
+//
+// Historique:
+//    cree le 15/01/2024
+
+{
+        String i = 4;
+}
